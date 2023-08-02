@@ -28,6 +28,7 @@ body{
     background-color: white;
     border-radius: 10rem;
     cursor: pointer;
+    box-shadow: 0 2rem 4rem rgba(0,0,0,0.1);
 }
 .close-modal{
     position: absolute;
@@ -53,9 +54,9 @@ h1{
 }
 .modal{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 60%;
+    transform: translate(-60%, -40%);
     width: 70%;
     background-color: white;
     padding: 6rem;
