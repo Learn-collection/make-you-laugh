@@ -69,5 +69,6 @@ btnCloseModal.addEventListener("click", closeModal);
 btnColorOne.addEventListener("click", setBgToColorOne);
 btnColorTwo.addEventListener("click", setBgToColorTwo);
 btnColorThree.addEventListener("click", setBgToColorThree);
-
 btnColorFour.addEventListener("click", setBgToColorFour);
+
+overlay.addEventListener("click", closeModal);
